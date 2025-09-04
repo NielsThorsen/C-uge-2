@@ -8,6 +8,9 @@ int result;
 int main(void) {
 
 scanf("%d",&n);
+if(n<0) {
+    abort();
+}
 
 i = 0;
 while (i<n)
